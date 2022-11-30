@@ -13,18 +13,28 @@ class VideoCaptureWorkout:NSObject{
     let captureSession = AVCaptureSession()
     let videoOutput = AVCaptureVideoDataOutput()
     var predictor:Predictor?
-    private(set) var cameraPostion = AVCaptureDevice.Position.back
+    private(set) var cameraPostion = AVCaptureDevice.Position.front
     private let sessionQueue = DispatchQueue(
         label: "videoDispatchQueue")
 //    @EnvironmentObject var predictor:Predictor
     override init(){
         super.init()
+//        try? setCaptureSessionInput()
+//        try? setCaptureSessionOutput()
+        
+//        captureSession.beginConfiguration()
+//
+//        captureSession.sessionPreset = .vga640x480
+//        try? self.setCaptureSessionInput()
+//        try? self.setCaptureSessionOutput()
+//        captureSession.commitConfiguration()
         guard let captureDevice = AVCaptureDevice.default(
             .builtInWideAngleCamera,
             for: .video,
             position: .front), let input = try? AVCaptureDeviceInput(device: captureDevice) else {return}
         captureSession.sessionPreset = AVCaptureSession.Preset.high
         captureSession.addInput(input)
+
         captureSession.addOutput(videoOutput)
         videoOutput.alwaysDiscardsLateVideoFrames = true
         
@@ -45,7 +55,7 @@ class VideoCaptureWorkout:NSObject{
         case unknown
     }
     public func flipCamera(completion: @escaping (Error?) -> Void) {
-        sessionQueue.async {
+//        sessionQueue.async {
             do {
                 self.cameraPostion = self.cameraPostion == .back ? .front : .back
 
@@ -66,7 +76,7 @@ class VideoCaptureWorkout:NSObject{
                     completion(error)
                 }
             }
-        }
+//        }
     }
     private func setCaptureSessionInput() throws {
         // Use the default capture device to obtain access to the physical device

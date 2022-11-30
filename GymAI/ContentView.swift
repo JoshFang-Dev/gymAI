@@ -7,7 +7,6 @@
 
 import SwiftUI
 import Firebase
-import HealthKit
 
 struct ContentView: View {
     var body: some View {
@@ -44,7 +43,7 @@ struct HomeView:View{
                                 }
                                 if homeVM.planSelected == input{
                                     Divider()
-                                        .frame(width: WIDTH10, height: 3)
+                                        .frame(width: Constant.width10, height: 3)
                                         .background(Color.yellow)
                                 }
                             }
@@ -86,7 +85,7 @@ struct HomeView:View{
                 HeaderText("MY PLAN")
                     .frame(maxWidth:.infinity,alignment: .leading)
                     .padding(.horizontal)
-                NavigationLink(destination: HomeWorkoutView()) {
+                NavigationLink(destination: HomeWorkoutDetailView()) {
                     Image("temp")
                         .resizable()
                         .frame(height:Constant.height10*4.5)

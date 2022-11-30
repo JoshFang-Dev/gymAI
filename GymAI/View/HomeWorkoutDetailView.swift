@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HomeWorkoutView:View{
+struct HomeWorkoutDetailView:View{
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     var tags = ["Killer challenge","Core"]
     var body: some View{
@@ -36,7 +36,7 @@ struct HomeWorkoutView:View{
 //            .background(Color.black)
             
             VStack(spacing:20){
-                HeaderText("PLANK CHALLENGE")
+                HeaderText("Squad CHALLENGE")
                     .frame(maxWidth:.infinity,alignment: .leading)
                     .padding(.bottom)
                 VStack(alignment:.leading){
@@ -44,7 +44,7 @@ struct HomeWorkoutView:View{
                     DateText("Level",size:15)
                 }
                 .frame(maxWidth:.infinity,alignment: .leading)
-                RegularText("Planks help gain core strength and build abs with \n minimal risks of back and neck injuries",Color.black)
+                RegularText("Squad helps to gain core strength and build abs with minimal risks of back and neck injuries",Color.black)
                     .frame(maxWidth:.infinity,alignment: .leading)
                 HStack{
                     ForEach(tags,id:\.self){tag in
@@ -96,6 +96,6 @@ struct HomeWorkoutView:View{
 
 struct HomeWorkoutView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeWorkoutView()
+        HomeWorkoutDetailView()
     }
 }

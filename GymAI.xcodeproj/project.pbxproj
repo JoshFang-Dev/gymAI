@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE2C77C0290159E700D2F15F /* HighKnee_Squad.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CE2C77BF290159E700D2F15F /* HighKnee_Squad.mlmodel */; };
+		CE2C77C229015D9D00D2F15F /* CGPoint+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C77C129015D9D00D2F15F /* CGPoint+.swift */; };
+		CE2C77C6290345C700D2F15F /* HighKnee_Squad_1.2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CE2C77C5290345C700D2F15F /* HighKnee_Squad_1.2.mlmodel */; };
+		CE2C77C82903481100D2F15F /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2C77C72903481100D2F15F /* Logger.swift */; };
+		CE2C77CA2904C69200D2F15F /* HighKnee_Squad_1.2d.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CE2C77C92904C69100D2F15F /* HighKnee_Squad_1.2d.mlmodel */; };
+		CE939D7C2905EE0300A27235 /* HighKnee_Squad_1.3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CE939D7B2905EE0300A27235 /* HighKnee_Squad_1.3.mlmodel */; };
 		CE9C5CE328D81753009C2B1B /* VideoCaptureWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9C5CE228D81753009C2B1B /* VideoCaptureWorkout.swift */; };
 		CE9C5D0428D83619009C2B1B /* Predictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9C5D0328D83618009C2B1B /* Predictor.swift */; };
 		CEA20BDC28CE54B9002137D0 /* GymAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA20BDB28CE54B9002137D0 /* GymAIApp.swift */; };
@@ -36,7 +42,7 @@
 		CEE83E9728DE13D400B95814 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = CEE83E9628DE13D400B95814 /* Lottie */; };
 		CEE83E9A28DE141600B95814 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = CEE83E9928DE141600B95814 /* GoogleSignIn */; };
 		CEE83E9C28DE148700B95814 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEE83E9B28DE148700B95814 /* GoogleService-Info.plist */; };
-		CEE83E9E28DE701B00B95814 /* HomeWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE83E9D28DE701A00B95814 /* HomeWorkoutView.swift */; };
+		CEE83E9E28DE701B00B95814 /* HomeWorkoutDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE83E9D28DE701A00B95814 /* HomeWorkoutDetailView.swift */; };
 		CEE83EAB28E0278200B95814 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEE83EAA28E0278200B95814 /* Preview Assets.xcassets */; };
 		CEE83EB928E02A1300B95814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE83EB828E02A1300B95814 /* Main.storyboard */; };
 		CEE83EBD28E02B7A00B95814 /* CGPoint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE83EBB28E02B7A00B95814 /* CGPoint+Extension.swift */; };
@@ -61,6 +67,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE2C77BF290159E700D2F15F /* HighKnee_Squad.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HighKnee_Squad.mlmodel; sourceTree = "<group>"; };
+		CE2C77C129015D9D00D2F15F /* CGPoint+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+.swift"; sourceTree = "<group>"; };
+		CE2C77C5290345C700D2F15F /* HighKnee_Squad_1.2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HighKnee_Squad_1.2.mlmodel; sourceTree = "<group>"; };
+		CE2C77C72903481100D2F15F /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		CE2C77C92904C69100D2F15F /* HighKnee_Squad_1.2d.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HighKnee_Squad_1.2d.mlmodel; sourceTree = "<group>"; };
+		CE939D7B2905EE0300A27235 /* HighKnee_Squad_1.3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HighKnee_Squad_1.3.mlmodel; sourceTree = "<group>"; };
 		CE9C5CE228D81753009C2B1B /* VideoCaptureWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCaptureWorkout.swift; sourceTree = "<group>"; };
 		CE9C5D0328D83618009C2B1B /* Predictor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Predictor.swift; sourceTree = "<group>"; };
 		CEA20BD828CE54B9002137D0 /* GymAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,7 +98,7 @@
 		CEE83E8628DE120300B95814 /* Date+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
 		CEE83E8A28DE126800B95814 /* GymAI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GymAI.entitlements; sourceTree = "<group>"; };
 		CEE83E9B28DE148700B95814 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		CEE83E9D28DE701A00B95814 /* HomeWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorkoutView.swift; sourceTree = "<group>"; };
+		CEE83E9D28DE701A00B95814 /* HomeWorkoutDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorkoutDetailView.swift; sourceTree = "<group>"; };
 		CEE83EAA28E0278200B95814 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CEE83EB828E02A1300B95814 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		CEE83EBB28E02B7A00B95814 /* CGPoint+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extension.swift"; sourceTree = "<group>"; };
@@ -147,6 +159,10 @@
 			isa = PBXGroup;
 			children = (
 				CEE83E8A28DE126800B95814 /* GymAI.entitlements */,
+				CE939D7B2905EE0300A27235 /* HighKnee_Squad_1.3.mlmodel */,
+				CE2C77C92904C69100D2F15F /* HighKnee_Squad_1.2d.mlmodel */,
+				CE2C77C5290345C700D2F15F /* HighKnee_Squad_1.2.mlmodel */,
+				CE2C77BF290159E700D2F15F /* HighKnee_Squad.mlmodel */,
 				CEA20BEB28D111B5002137D0 /* MyActionClassifierGymAI_1.mlmodel */,
 				CEE83E7828DE11E600B95814 /* UIComponent */,
 				CEE83E7328DE11D600B95814 /* Model */,
@@ -167,7 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				CEA20BDD28CE54B9002137D0 /* WorkoutHomeView.swift */,
-				CEE83E9D28DE701A00B95814 /* HomeWorkoutView.swift */,
+				CEE83E9D28DE701A00B95814 /* HomeWorkoutDetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -211,6 +227,7 @@
 				CEE83E7D28DE11F300B95814 /* HeaderText.swift */,
 				CEE83E7A28DE11F300B95814 /* LineGraph.swift */,
 				CEE83E7C28DE11F300B95814 /* LottieView.swift */,
+				CE2C77C72903481100D2F15F /* Logger.swift */,
 			);
 			path = UIComponent;
 			sourceTree = "<group>";
@@ -219,6 +236,7 @@
 			isa = PBXGroup;
 			children = (
 				CEE83E8428DE120300B95814 /* Color+.swift */,
+				CE2C77C129015D9D00D2F15F /* CGPoint+.swift */,
 				CEE83E8528DE120300B95814 /* Constant.swift */,
 				CEE83E8628DE120300B95814 /* Date+.swift */,
 			);
@@ -392,14 +410,20 @@
 				CEE83E7728DE11DE00B95814 /* RegisterType.swift in Sources */,
 				CEE83EE328E02C4000B95814 /* PopOverModalViewController.swift in Sources */,
 				CEE83EE128E02C4000B95814 /* GradientOverlayView.swift in Sources */,
+				CE939D7C2905EE0300A27235 /* HighKnee_Squad_1.3.mlmodel in Sources */,
 				CEE83E6928DE11A700B95814 /* ContentView.swift in Sources */,
 				CEA20BDE28CE54B9002137D0 /* WorkoutHomeView.swift in Sources */,
 				CEE83EE428E02C4000B95814 /* ViewController.swift in Sources */,
+				CE2C77C82903481100D2F15F /* Logger.swift in Sources */,
 				CEE83E7028DE11CD00B95814 /* LoginVm.swift in Sources */,
 				CE9C5CE328D81753009C2B1B /* VideoCaptureWorkout.swift in Sources */,
+				CE2C77C6290345C700D2F15F /* HighKnee_Squad_1.2.mlmodel in Sources */,
 				CEE83ED328E02C0100B95814 /* PoseBuilderConfiguration.swift in Sources */,
+				CE2C77C0290159E700D2F15F /* HighKnee_Squad.mlmodel in Sources */,
 				CEE83EC728E02BDE00B95814 /* PoseNetMobileNet075S16FP16.mlmodel in Sources */,
 				CEE83E8928DE120300B95814 /* Date+.swift in Sources */,
+				CE2C77C229015D9D00D2F15F /* CGPoint+.swift in Sources */,
+				CE2C77CA2904C69200D2F15F /* HighKnee_Squad_1.2d.mlmodel in Sources */,
 				CEE83E6728DE10D900B95814 /* VideoViewController.swift in Sources */,
 				CEA20BDC28CE54B9002137D0 /* GymAIApp.swift in Sources */,
 				CEE83ED228E02C0100B95814 /* PoseBuilder+Multiple.swift in Sources */,
@@ -407,7 +431,7 @@
 				CEE83ED928E02C2400B95814 /* AVCaptureVideoOrientation+Extension.swift in Sources */,
 				CEE83EE028E02C4000B95814 /* ConfigurationViewController.swift in Sources */,
 				CEE83E7E28DE11F300B95814 /* HorizontalButton.swift in Sources */,
-				CEE83E9E28DE701B00B95814 /* HomeWorkoutView.swift in Sources */,
+				CEE83E9E28DE701B00B95814 /* HomeWorkoutDetailView.swift in Sources */,
 				CEA20BEC28D111B6002137D0 /* MyActionClassifierGymAI_1.mlmodel in Sources */,
 				CEE83ED128E02C0100B95814 /* Pose.swift in Sources */,
 				CEE83E7F28DE11F300B95814 /* LineGraph.swift in Sources */,
@@ -552,6 +576,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = GymAI/GymAI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -564,7 +589,6 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -584,6 +608,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = GymAI/GymAI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -596,7 +621,6 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

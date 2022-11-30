@@ -11,11 +11,14 @@ import GoogleSignIn
 @main
 struct GymAIApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    @StateObject var predictor = Predictor()
+    var videoController = VideoViewController()
     var body: some Scene {
         WindowGroup {
+//            CameraViewWrapper(predictor: predictor, videoController: videoController)
+//                .ignoresSafeArea(.all,edges: .all)
 //            PoseViewCameraWrapper()
 //                .ignoresSafeArea(.all,edges: .all)
-//            WorkoutHomeView()
             ContentView()
                 .environmentObject(HomeViewModel())
         }
@@ -29,6 +32,10 @@ class AppDelegate:NSObject, UIApplicationDelegate{
     FirebaseApp.configure()
     return true
   }
+    
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        return .portrait
+    }
     
     func application(_ application: UIApplication, open url: URL,
                      options: [UIApplication.OpenURLOptionsKey: Any])

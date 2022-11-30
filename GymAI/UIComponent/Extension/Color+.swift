@@ -17,5 +17,6 @@ extension Color{
     static let statBG = Color(#colorLiteral(red: 0.09434037656, green: 0.1821265519, blue: 0.3860649467, alpha: 1))
     static let bottomBG = Color(#colorLiteral(red: 0.3636131287, green: 0.4130303264, blue: 0.5607997179, alpha: 1))
     static let statHeaderBG = Color(#colorLiteral(red: 0.2790870965, green: 0.3387200832, blue: 0.5069208741, alpha: 1))
+    static let lightYellow = Color(#colorLiteral(red: 0.9172292352, green: 0.7428759933, blue: 0.00191194599, alpha: 1))
 }
 
